@@ -14,7 +14,8 @@ COPY $REQUIREMENTS /app/config/requirements.txt
 
 # Install developer tools (needed for psutil)
 RUN apt-get update && apt-get install -y python3-dev gcc
-
+#THIS IS WHAT I HAVE ADDED TO THIS DOCKER FILE
+RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
 # Create FEDn app directory
 SHELL ["/bin/bash", "-c"]
 RUN mkdir -p /app \
