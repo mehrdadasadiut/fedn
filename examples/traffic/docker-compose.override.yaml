@@ -13,3 +13,6 @@ services:
       - ${HOST_REPO_DIR:-.}/fedn:/app/fedn
       - ${HOST_REPO_DIR:-.}/examples/traffic/data:/var/data
       - /var/run/docker.sock:/var/run/docker.sock
+    extra_hosts:
+            reducer: 193.40.155.17
+            combiner: 193.40.155.17
