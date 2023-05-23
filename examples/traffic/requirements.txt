@@ -1,8 +1,7 @@
-tensorflow==2.10.0
 fire==0.3.1
 docker==6.1.1
 opencv-python==4.7.0.72
 matplotlib==3.7.1
 keras==2.10.0
 scikit-learn==1.2.2
-
+tensorflow==2.10.0
