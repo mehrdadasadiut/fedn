@@ -1,5 +1,5 @@
 #!./.mnist-keras/bin/python
-#########You should download the training set from https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/GTSRB_Final_Training_Images.zip and put in in bin directory################
+#########You should download the training set from https://sid.erda.dk/public/archives/daaeac0d7ce1152aea9b61d9f1e19370/GTSRB_Final_Training_Images.zip and unzip / put in in bin directory################
 import numpy as np
 import fire
 import cv2 as cv
