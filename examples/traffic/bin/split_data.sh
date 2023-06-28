@@ -37,5 +37,5 @@ def split(dataset='data/traffic.npz', outdir='data', n_splits=2):
                  y_test=data['y_test'][i])
 
 
-#if __name__ == '__main__':
-#    fire.Fire(split)
+if __name__ == '__main__':
+    fire.Fire(split)
